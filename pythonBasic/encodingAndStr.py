@@ -57,8 +57,8 @@ else:
 
 
 def BMI(height, weight):
-    height = float(height)
-    weight = float(weight)
+    float(height)
+    float(weight)
     bmi = weight / (height * height)
     bmi = float(bmi)
     if bmi < 18.5:
